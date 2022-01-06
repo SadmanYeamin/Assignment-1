@@ -1,12 +1,46 @@
+body {
+  margin: 0;
+}
+.slight-margin {
+  margin-left: 2%;
+  margin-right: 2%;
+}
 .orange-color {
   color: orange;
+}
+.white-color {
+  color: white;
+}
+.red-color {
+  color: red;
+}
+.center-text {
+  text-align: center;
+  align-items: center;
+}
+.italic-text {
+  font-style: italic;
 }
 .top-section h1 {
   font-family: "Libre Baskerville", serif;
   font-size: 50px;
 }
+.center-aligned {
+  margin-right: 50%;
+  margin-left: 50%;
+  background-color: black;
+}
+
+/* .top-section {
+  margin-left: 6%;
+  margin-right: 6%;
+} */
 .top-title {
-  border-left: 2px solid red;
+  border-left: 5px solid red;
+  border-radius: 5px;
+  border-image-slice: 1;
+  padding-left: 4%;
+  /* padding-right: 50%; */
 }
 .flexible-container {
   display: flex;
@@ -14,7 +48,7 @@
 }
 .half-width {
   width: 50%;
-  padding-left: 5%;
+  padding-left: 2%;
 }
 .half-width a {
   background-image: linear-gradient(orange, tomato);
@@ -24,11 +58,86 @@
   font-weight: 400;
   border-radius: 10%;
 }
-.half-width img {
+.top-section img {
   width: 60%;
+  margin-top: -20px;
+  margin-left: 180px;
 }
-
+.second-area {
+}
+.second-area img {
+  width: 30%;
+}
 .middle-text {
   text-align: center;
   font-size: 50px;
+}
+.mission-item {
+  width: 40%;
+  margin-left: 2%;
+  margin-right: 2%;
+  /* padding-right: 10px;
+  padding-left: 10px; */
+  padding: 40px;
+
+  border-radius: 10px;
+}
+/* .second-area {
+  margin-left: 8%;
+  margin-right: 8%;
+} */
+
+#mission {
+  border-radius: 4%;
+  background-color: rgb(230, 255, 255);
+}
+#vision {
+  border-radius: 4%;
+  background-color: rgb(231, 209, 217);
+}
+#goals {
+  border-radius: 4%;
+  background-color: rgb(234, 236, 212);
+}
+/* .third-area {
+  margin-left: 6%;
+  margin-right: 6%;
+} */
+.third-area {
+  background-image: url(images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 200px;
+}
+.third-area h1 {
+  font-size: 30px;
+}
+.third-area img {
+  width: 40%;
+}
+.fourth-area {
+  background-image: url(images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 200px;
+}
+.fourth-area h1 {
+  font-size: 30px;
+}
+.fourth-area img {
+  width: 40%;
+  margin-left: 50%;
+}
+.fifth-area {
+}
+footer {
+  background-color: black;
+  padding: 20px 0;
+}
+footer h2 {
+  font-family: "Lobster", cursive;
+}
+footer p {
+  color: white;
+  text-align: center;
 }
