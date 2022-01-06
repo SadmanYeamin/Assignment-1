@@ -26,9 +26,8 @@ body {
   font-size: 50px;
 }
 .center-aligned {
-  margin-right: 50%;
-  margin-left: 50%;
-  background-color: black;
+  margin-right: 70%;
+  margin-left: 40%;
 }
 
 /* .top-section {
@@ -129,6 +128,9 @@ body {
   margin-left: 50%;
 }
 .fifth-area {
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 10px;
+  padding: 40px;
 }
 footer {
   background-color: black;
@@ -140,4 +142,26 @@ footer h2 {
 footer p {
   color: white;
   text-align: center;
+}
+input[type="text"] {
+  width: 500%;
+  padding: 10px 16px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type="email"] {
+  width: 500%;
+  padding: 10px 16px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.card-button {
+  width: 150%;
+  background-image: linear-gradient(orange, tomato);
+  text-decoration: none;
+  padding: 10px 20px;
+  color: white;
+  font-weight: 400;
+  border-radius: 10%;
+  border-style: none;
 }
